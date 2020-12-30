@@ -1,0 +1,41 @@
+{
+  "name": "vue-cocorita",
+  "version": "1.0.0",
+  "description": "Cocorita plugin for Vue.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "pretest": "babel test --out-dir build-test",
+    "test": "tape build-test/**/*.test.js | tap-spec",
+    "lint": "eslint .",
+    "prebuild": "npm run lint",
+    "build": "babel src --out-dir dist",
+    "postbuild": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakplus/vue-cocorita.git"
+  },
+  "keywords": [
+    "cocorita",
+    "translation",
+    "localization",
+    "vue"
+  ],
+  "author": "Valerio Bianchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakplus/vue-cocorita/issues"
+  },
+  "homepage": "https://github.com/zakplus/vue-cocorita#readme",
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "eslint": "7.16.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "tap-spec": "5.0.0",
+    "tape": "5.1.0"
+  },
+  "dependencies": {}
+}
