@@ -35,11 +35,11 @@ You will be able to call Cocorita `tr` method directly from within vour Vue comp
 {{ $tr('Translate this') }}
 ```
 
-**In script:**
+**In scripts:**
 ```Javascript
 export default {
-  methods() {
-    error():
+  methods: {
+    error() {
       alert($tr('An error occurred');
     };
   }
@@ -48,7 +48,7 @@ export default {
 
 ## Usage outside .vue files
 ```Javascript
-Vue.tr('Translate this');
+const message = Vue.tr('Translate this');
 ```
 
 ## License
