@@ -56,7 +56,7 @@ const message = Vue.tr('Translate this');
 ```
 MIT License
 
-Copyright (c) 2018 Valerio Bianchi
+Copyright (c) 2020 Valerio Bianchi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
