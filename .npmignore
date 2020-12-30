@@ -2,3 +2,4 @@ test
 src
 babel.config.json
 .eslintrc.js
+.eslintignore

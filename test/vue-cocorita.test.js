@@ -1,6 +1,8 @@
 import test from 'tape';
 import Vue from './VueMock';
 import Cocorita from './CocoritaMock';
+
+// eslint-disable-next-line import/no-unresolved,import/extensions
 import VueCocorita from '../dist/index';
 
 test('Installation tests', (t) => {

@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "babel test --out-dir build-test",
     "test": "tape build-test/**/*.test.js | tap-spec",
-    "lint": "eslint ./src",
+    "lint": "eslint .",
     "prebuild": "npm run lint",
     "build": "babel src --out-dir dist",
     "postbuild": "npm run test"
